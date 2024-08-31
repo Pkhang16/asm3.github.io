@@ -1,0 +1,68 @@
+@media (max-width: 768px) {
+  .text-nav {
+    display: none;
+  }
+  #nav-bar {
+    width: 100%;
+  }
+  .nav2 {
+    height: auto;
+    display: block;
+    padding: 20px;
+  }
+  .nav2 a:link,
+  a:visited {
+    display: block;
+    padding: 10px;
+    border-left: none;
+    text-align: left;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .target {
+    padding-bottom: 10px;
+  }
+  .container-info {
+    display: block;
+  }
+  .image-degree {
+    height: 120px;
+    width: 150px;
+  }
+
+  .certificate-detail {
+    display: block;
+  }
+
+  .block {
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+
+  .funix-degree {
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  /* Chỉnh sửa phần dự án */
+  .container-project-detail {
+    display: block;
+  }
+
+  .project {
+    margin-bottom: 20px;
+  }
+
+  /*Chỉnh sửa digital-cv*/
+  .project-charter {
+    display: block;
+  }
+  .list-group-with-icons .list-group-item {
+    display: block;
+  }
+  .icon {
+    margin-bottom: 20px;
+  }
+}

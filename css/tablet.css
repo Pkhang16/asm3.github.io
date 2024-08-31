@@ -1,0 +1,39 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .text-nav {
+    display: none;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .image-degree {
+    width: 200px;
+    height: 150px;
+  }
+
+  /* Chỉnh sửa phần dự án */
+
+  .project {
+    width: 50px;
+    flex-shrink: 1;
+  }
+
+  .image-project {
+    width: 100%;
+  }
+
+  /*Chỉnh sửa digital-cv*/
+  .project-charter {
+    display: block;
+  }
+
+  .list-group-with-icons .list-group-item {
+    display: block;
+  }
+
+  .container {
+    width: 100%;
+    display: block;
+  }
+}
